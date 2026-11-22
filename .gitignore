@@ -1,0 +1,17 @@
+# Environment & secrets
+.env
+.env*
+!.env.example
+*.secrets.json
+delta_settings.json
+
+# Process locks & logs
+*.lock
+*.pid
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.DS_Store
